@@ -11,7 +11,7 @@ import diningCandlelightImg from "@/assets/dining-candlelight.jpg";
 import guestMomentImg from "@/assets/guest-moment.jpg";
 
 export const siteConfig = {
-  name: "Cosy Cafe",
+  name: "The Cosy Guest House",
   tagline: "Experience Jodhpur From The Heart of Blue City",
   description: "A cozy heritage guest house offering rooftop dining, beautiful rooms and unforgettable views of Mehrangarh Fort.",
   phone: "+91 98765 43210",

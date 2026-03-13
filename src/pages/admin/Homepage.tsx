@@ -143,7 +143,7 @@ export default function AdminHomepage() {
                                     </div>
                                     <input
                                         type="file"
-                                        accept="image/*"
+                                        accept="image/*,.png,.jpg,.jpeg,.webp,.avif,.heic,.nef"
                                         className="absolute inset-0 opacity-0 cursor-pointer"
                                         onChange={e => handleImageUpload(e, 'about', 'story_image', setUploadingStory)}
                                         disabled={uploadingStory}

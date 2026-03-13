@@ -166,7 +166,7 @@ export default function AdminSiteImages() {
                                     <div className="flex-1 relative">
                                         <Input
                                             type="file"
-                                            accept="image/*,video/mp4"
+                                            accept="image/*,.png,.jpg,.jpeg,.webp,.avif,.heic,.nef,video/mp4"
                                             className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
                                             onChange={(e) => handleImageUpload(e, section.section_name, section.image_key)}
                                             disabled={uploading === section.image_key}

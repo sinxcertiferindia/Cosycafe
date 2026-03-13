@@ -165,7 +165,7 @@ export default function AdminGallery() {
                                 type="file"
                                 className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
                                 onChange={handleFileUpload}
-                                accept="image/*"
+                                accept="image/*,.png,.jpg,.jpeg,.webp,.avif,.heic,.nef"
                                 multiple
                                 disabled={uploading}
                             />

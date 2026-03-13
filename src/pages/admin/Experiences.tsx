@@ -184,7 +184,7 @@ export default function Experiences() {
                                         </div>
                                     )}
                                     <div className="flex-1">
-                                        <Input id="image" type="file" accept="image/*" onChange={handleImageChange} />
+                                        <Input id="image" type="file" accept="image/*,.png,.jpg,.jpeg,.webp,.avif,.heic,.nef" onChange={handleImageChange} />
                                         <p className="text-xs text-muted-foreground mt-2">Recommended: 4:5 aspect ratio (e.g. 800x1000px)</p>
                                     </div>
                                 </div>

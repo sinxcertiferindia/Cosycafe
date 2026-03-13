@@ -301,7 +301,7 @@ export default function AdminStories() {
                                                 type="file"
                                                 className="absolute inset-0 opacity-0 cursor-pointer"
                                                 onChange={handleFileUpload}
-                                                accept="image/*"
+                                                accept="image/*,.png,.jpg,.jpeg,.webp,.avif,.heic,.nef"
                                                 disabled={uploading}
                                             />
                                         </Button>
@@ -324,7 +324,7 @@ export default function AdminStories() {
                                             type="file"
                                             className="absolute inset-0 opacity-0 cursor-pointer"
                                             onChange={handleGalleryUpload}
-                                            accept="image/*"
+                                            accept="image/*,.png,.jpg,.jpeg,.webp,.avif,.heic,.nef"
                                             multiple
                                             disabled={uploadingGallery}
                                         />
